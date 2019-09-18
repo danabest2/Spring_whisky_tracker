@@ -72,4 +72,12 @@ public class Whisky {
     public void setAge(int age) {
         this.age = age;
     }
+
+//    public String getRegion() {
+//        return this.distillery.getRegion();
+//    }
+
+    public String getDistilleryRegion() {
+        return this.distillery.getRegion();
+    }
 }
